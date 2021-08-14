@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Todo Pelota/Contacto</title>
+  </head>
+  <body>
+    <!--Encabezado -->
+    <header class="site-header">
+      <div class="encabezado">
+        <nav class="barra">
+          <a href="index.html"><img src="./imagen/LOGO.png" alt="logo"></a>
+          <ul class="menu">
+            <li><a href="index.html#prod">Productos</a></li>
+            <li><a href="marcas.html">Marcas</a></li>
+            <li><a href="sobreNosotros.html">Nosotros</a></li>
+            <li><a href="ayuda.html">Ayuda</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <!--Contacto va a ser un formulario-->
+          </ul>
+        </nav>
+        <h2 class="eslogan">Todo pelota, siga siga.</h2>
+      </div>
+    </header>
+    <main>
+      <form action="">
+        <fieldset>
+          <legend>Contacto</legend>
+          <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" />
+          </div>
+          <br />
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="nombre@ejemplo.com"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="pas">Clave</label>
+            <input type="password" id="pas" name="pas" />
+          </div>
+          <br />
+          <div>
+            <label for="tex">Su mensaje:</label>
+            <br />
+            <textarea name="tex" id="tex" cols="22" rows="7"></textarea>
+          </div>
+          <!--hasta aca agrupe con div-->
+          <br />
+          <div>Hombre</div>
+          <input type="radio" name="sexo" value="hombre" />
+          <div>Mujer</div>
+          <input type="radio" name="sexo" value="mujer" />
+          <br />
+          <div>Acepta los terminos y condiciones</div>
+          <input type="checkbox" name="acepta" value="1" />
+          <h3>¿Como nos conociste?</h3>
+          <select name="redes" id="">
+            <option value="Ig">Instagram</option>
+            <option value="Fb">Facebook</option>
+            <option value="Yt">YouTube</option>
+            <option value="Ot">Otro</option>
+          </select>
+          <br />
+          <br />
+          <br />
+          <input type="submit" value="Enviar Formulario" />
+          <input type="reset" value="Limpiar" />
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <!--redes-->
+      <section class="redes">
+        <h3>Buscanos en redes</h3>
+        <h4>Instagram <a href="">Todo.pelota</a></h4>
+        <h4>Facebook <a href="">Todo Pelota</a></h4>
+        <h4>Twiter <a href="">Todopelota</a></h4>
+      </section>
+      <p class="derechos">
+        <strong><em>Todos los derechos reservados</em> -2021-</strong>
+      </p>
+    </footer>
+  </body>
+</html>
