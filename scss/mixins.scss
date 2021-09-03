@@ -1,0 +1,10 @@
+@mixin tamañoFotos($width, $heigth) {
+  width: $width !important;
+  height: $heigth !important;
+}
+
+$root-size: 400rem;
+
+.tercer {
+  font-size: 0.01*$root-size;
+}

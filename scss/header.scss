@@ -1,0 +1,48 @@
+header {
+  background-color: rgba(155, 170, 170, 0.801);
+}
+
+.site-header {
+  background-image: url(../imagen/cesped.jpg);
+  background-size: cover;
+  .encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;  
+  }
+ .eslogan {
+    color: white;
+    font-size: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  .menu {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+    padding-top: 8rem;
+
+    li {
+      display: inline;
+      a {
+        text-decoration: overline rgba(255, 0, 0, 0.678) !important;
+        color: white;
+        margin: 2rem;
+        bottom: 10rem;
+      }
+    }
+    
+  }
+}

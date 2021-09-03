@@ -13,10 +13,17 @@ header {
 .logo {
   overflow: hidden;
 }
+.logot {
+  margin: 2rem;
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  justify-content: space-between;
+}
 
 /*el logo debe ser transparente*/
-.site-header {
-  background-image: url(./imagen/cesped.jpg);
+/*.site-header {
+  background-image: url(../imagen/cesped.jpg);
 
   background-size: cover;
 }
@@ -65,7 +72,7 @@ ul {
   text-decoration: overline rgba(255, 0, 0, 0.678) !important;
   margin: 2rem;
   bottom: 10rem;
-}
+}*/
 /* #marcas li a {
   text-decoration: overline black ;
 } */
@@ -128,11 +135,10 @@ ul {
   flex-direction: column;
   align-items: center;
 }
-#grid-wrap div .item:hover  {
+#grid-wrap div .item:hover {
   cursor: pointer;
-transform: scale(1.03);
+  transform: scale(1.03);
 }
-
 
 #flex2 div {
   display: flex;
@@ -146,11 +152,10 @@ transform: scale(1.03);
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 #flex2 div .item:hover {
-cursor: pointer;
-transform: scale(1.03);
+  cursor: pointer;
+  transform: scale(1.03);
 }
 /* #grid-wrap-item {
   justify-content: center;
@@ -185,7 +190,7 @@ justify-self: center;
 .sexo {
   text-align: center;
   padding: 5rem;
-  border: 2px solid black; /*marca para grid*/
+  border: 0px solid black; /*marca para grid*/
 }
 .sexo p a {
   display: inline;
@@ -223,7 +228,7 @@ justify-self: center;
   margin: 2rem;
   font-size: 2rem;
   padding: 5px;
-  background-color: #fff;
+  
 }
 
 .imagen {
@@ -267,7 +272,7 @@ justify-self: center;
   display: inline-block;
 }
 /*footer*/
-.redes h3 {
+/* .redes h3 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -280,5 +285,5 @@ justify-self: center;
 }
 footer {
   /* background-color:  rgba(155, 170, 170, 0.514); */
-  background-image: linear-gradient(white, rgb(155, 170, 170));
-}
+/* background-image: linear-gradient(white, rgb(155, 170, 170)); 
+} */

@@ -1,0 +1,17 @@
+#prod .container {
+  align-items: center;
+  text-align: center;
+}
+
+#prod .container .row .col img {
+  margin: 2rem;
+  width: 25rem;
+  height: 25rem;
+  border: 2px black solid;
+  border-radius: 1rem;
+}
+
+#prod .container .row .col p {
+  display: block;
+  text-align: center;
+}
