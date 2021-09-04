@@ -79,7 +79,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 1, 5rem; }
   .redes .redes__container .redes__container--h2 {
-    margin: 3rem;
+    padding: 3rem;
     text-align: center; }
   .redes .redes__container .redes__container--bloque {
     font-size: 1rem;
@@ -105,7 +105,11 @@ footer {
   /* background-color:  rgba(155, 170, 170, 0.514); */
   background-image: linear-gradient(#edebeb, #707272); }
 
+main {
+  background-color: #edebeb; }
+
 #prod .container {
+  padding-top: 4rem;
   align-items: center;
   text-align: center; }
 
@@ -113,33 +117,36 @@ footer {
   margin: 2rem;
   width: 25rem;
   height: 25rem;
-  border: 2px black solid;
   border-radius: 1rem; }
 
 #prod .container .row .col p {
   display: block;
   text-align: center; }
 
+#prod .container .row .col a {
+  display: inline;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif; }
+
 header {
   background-color: rgba(155, 170, 170, 0.801); }
+
+.logot {
+  margin: 2rem;
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  justify-content: space-between; }
 
 .site-header {
   background-image: url(../imagen/cesped.jpg);
   background-size: cover; }
-  .site-header .encabezado {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: left; }
   .site-header .eslogan {
     color: white;
     font-size: 5rem;
     padding-top: 4rem;
     padding-bottom: 4rem; }
-  .site-header .barra {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
   .site-header ul {
     list-style-type: none; }
   .site-header .menu {
@@ -156,3 +163,48 @@ header {
         color: white;
         margin: 2rem;
         bottom: 10rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+.nuestras {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-top: 8rem; }
+
+.marcas a img {
+  margin: 2rem;
+  width: 30rem;
+  height: 25rem;
+  overflow: hidden;
+  border-radius: 0.5rem; }
+
+.container .nosotros {
+  padding-bottom: 5rem;
+  padding-top: 10rem; }
+
+.container .row .col p {
+  font-size: medium; }
+
+.container .row .col img {
+  width: 30rem;
+  height: 25rem;
+  overflow: hidden; }
+
+.container {
+  padding: 5rem; }
+
+.container .mb-3 {
+  font-size: 2rem; }
+  .container .mb-3 .form-check-label {
+    font-size: 1.5rem; }
+
+.talles {
+  text-align: center; }

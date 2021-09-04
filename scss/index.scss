@@ -1,4 +1,9 @@
+main {
+  background-color: rgb(237, 235, 235);
+}
+
 #prod .container {
+  padding-top: 4rem;
   align-items: center;
   text-align: center;
 }
@@ -7,11 +12,18 @@
   margin: 2rem;
   width: 25rem;
   height: 25rem;
-  border: 2px black solid;
+  // border: 2px black solid;
   border-radius: 1rem;
 }
 
 #prod .container .row .col p {
   display: block;
   text-align: center;
+}
+
+#prod .container .row .col a {
+  display: inline;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
 }

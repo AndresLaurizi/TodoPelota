@@ -1,15 +1,22 @@
 header {
   background-color: rgba(155, 170, 170, 0.801);
 }
+.logot {
+  margin: 2rem;
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  justify-content: space-between;
+}
 
 .site-header {
   background-image: url(../imagen/cesped.jpg);
   background-size: cover;
   .encabezado {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: left;  
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    // text-align: left;  
   }
  .eslogan {
     color: white;
@@ -18,9 +25,9 @@ header {
     padding-bottom: 4rem;
   }
   .barra {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
   }
   ul {
     list-style-type: none;

@@ -1,25 +1,25 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
 html {
   font-size: 62.5%;
-}
+} */
 /*encabezado*/
-header {
+/* header {
   background-color: rgba(155, 170, 170, 0.801);
-}
+} */
 
-.logo {
+/* .logo {
   overflow: hidden;
-}
-.logot {
+} */
+/* .logot {
   margin: 2rem;
   width: 20rem;
   height: 20rem;
   overflow: hidden;
   justify-content: space-between;
-}
+} */
 
 /*el logo debe ser transparente*/
 /*.site-header {
@@ -78,7 +78,7 @@ ul {
 } */
 
 /*css marcas*/
-.nuestras {
+/* .nuestras {
   font-size: 3rem;
   font-style: normal;
   font-weight: bold;
@@ -111,17 +111,17 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
+} */
 
 /*Seccion de productos*/
 
-#grid-wrap div {
+/* #grid-wrap div {
   display: flex;
   margin-top: 2rem;
   margin-bottom: 4rem;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
   /* border: 1px solid black;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1rem; */
@@ -129,8 +129,8 @@ ul {
   /* ". a a ."
   ". a a .";
   */
-}
-#grid-wrap div .item {
+
+/* #grid-wrap div .item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,7 +156,7 @@ ul {
 #flex2 div .item:hover {
   cursor: pointer;
   transform: scale(1.03);
-}
+} */
 /* #grid-wrap-item {
   justify-content: center;
   align-items: center;
