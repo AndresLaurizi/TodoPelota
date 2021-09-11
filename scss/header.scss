@@ -1,55 +1,52 @@
-header {
-  background-color: rgba(155, 170, 170, 0.801);
-}
 .logot {
-  margin: 2rem;
-  width: 20rem;
-  height: 20rem;
-  overflow: hidden;
-  justify-content: space-between;
+    margin: 2rem;
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    background-color: rgb(32, 31, 28);
+    .navbar-toggler-icon {}
 }
 
 .site-header {
-  background-image: url(../imagen/cesped.jpg);
-  background-size: cover;
-  .encabezado {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
-    // text-align: left;  
-  }
- .eslogan {
-    color: white;
-    font-size: 5rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-  .barra {
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
-  }
-  ul {
-    list-style-type: none;
-  }
-
-  .menu {
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    text-align: right;
-    padding-top: 8rem;
-
-    li {
-      display: inline;
-      a {
-        text-decoration: overline rgba(255, 0, 0, 0.678) !important;
-        color: white;
-        margin: 2rem;
-        bottom: 10rem;
-      }
+    background-image: url(../imagen/cesped.jpg);
+    background-size: cover;
+    .encabezadoI {
+        display: flex;
+        padding-right: 2rem;
+        padding-bottom: 5rem;
+        justify-content: space-between;
     }
-    
-  }
+    .navbar {
+        margin-top: 8rem;
+        max-height: 5rem;
+        text-align: end;
+        margin-top: 35px;
+        .container-fluid {
+            font-size: 3rem;
+            font-family: "Roboto", sans-serif;
+            .navbar-nav {
+                .nav-link {
+                    text-decoration: overline red;
+                    margin-left: 2rem;
+                    font-size: 2rem;
+                }
+            }
+        }
+        .container-fluid {
+            button {
+                position: fixed;
+                top: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+    }
+    .eslogan {
+        color: white;
+        padding-bottom: 2rem;
+        margin: 0 0 0 15px;
+    }
 }

@@ -187,10 +187,10 @@ align-self: center;
 justify-self: center;
 } */
 
-.sexo {
+/* .sexo {
   text-align: center;
   padding: 5rem;
-  border: 0px solid black; /*marca para grid*/
+  border: 0px solid black; marca para grid
 }
 .sexo p a {
   display: inline;
@@ -199,25 +199,25 @@ justify-self: center;
   padding: 4rem;
   color: black;
   font-size: 2rem;
-}
+} */
 
 /*imagenes*/
-.imag img {
+/* .imag img {
   border: 3px solid black;
   margin: 2rem;
   width: 25rem;
   height: 25rem;
   overflow: hidden;
   border-radius: 0.5rem;
-}
-
+} */
+/* 
 #prod p {
   display: inline;
   font-size: 2rem;
   font-family: "roboto", sans-serif;
-}
+} */
 /*sobre nosotros*/
-.nosotros__main {
+/* .nosotros__main {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
@@ -229,9 +229,9 @@ justify-self: center;
   font-size: 2rem;
   padding: 5px;
   
-}
+} */
 
-.imagen {
+/* .imagen {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -241,7 +241,7 @@ justify-self: center;
   height: 30rem;
   overflow: hidden;
   justify-content: space-between;
-}
+} */
 /* .footer {
   display: flex;
   width: 100%;
@@ -250,7 +250,7 @@ justify-self: center;
   } */
 
 /*ofertas*/
-.oferta__oferta {
+/* .oferta__oferta {
   text-decoration: none;
   color: black;
   text-align: center;
@@ -266,11 +266,19 @@ justify-self: center;
 }
 .oferta div {
   display: block;
-}
+} */
 
-.oferta__promo {
+/* .oferta__promo {
   display: inline-block;
-}
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+} */
 /*footer*/
 /* .redes h3 {
   padding-top: 1rem;
