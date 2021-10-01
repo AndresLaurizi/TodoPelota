@@ -1,42 +1,44 @@
 .redes {
-  .redes__container {
-    .redes__container--h2 {
-      padding: 3rem;
-      text-align: center;
+    .redes__container {
+        .redes__container--h2 {
+            padding: 3rem;
+            text-align: center;
+        }
+        font-family: "Roboto",
+        sans-serif;
+        font-size: 1,
+        5rem;
+        .redes__container--bloque {
+            font-size: 1rem;
+            font-weight: 700;
+            padding-left: 2rem;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            img {
+                @include tamañoFotos(3rem, 3rem);
+                padding-right: 1rem;
+            }
+            li {
+                list-style: none;
+                margin-bottom: 1rem;
+            }
+        }
     }
-    font-family: "Roboto", sans-serif;
-    font-size: 1, 5rem;
-    .redes__container--bloque {
-      font-size: 1rem;
-      font-weight: 700;
-
-      padding-left: 2rem;
-      a {
-        text-decoration: none;
-        color: black;
-      }
-      img {
-        @include tamañoFotos(3rem, 3rem);
-        padding-right: 1rem;
-      }
-      li {
-        list-style: none;
-        margin-bottom: 1rem;
-      }
+    .derechos {
+        text-align: right;
+        font-size: 1rem;
+        margin-right: 1rem;
     }
-  }
-  .derechos  {
-    text-align: right;
-    font-size: 1rem;
-    margin-right: 1rem;
-  }
 }
+
 //--arreglo margin footer-//
 .der .derechos {
-  margin: 0;
+    margin: 0;
 }
 
 footer {
-  /* background-color:  rgba(155, 170, 170, 0.514); */
-  background-image: linear-gradient(rgb(237, 235, 235), rgb(112, 114, 114));
+    /* background-color:  rgba(155, 170, 170, 0.514); */
+    background-image: linear-gradient(rgb(237, 235, 235), rgb(112, 114, 114));
 }

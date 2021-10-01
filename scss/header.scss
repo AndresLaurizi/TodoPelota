@@ -8,7 +8,6 @@
 
 .navbar-toggler {
     background-color: rgb(32, 31, 28);
-    .navbar-toggler-icon {}
 }
 
 .site-header {
@@ -30,6 +29,7 @@
             font-family: "Roboto", sans-serif;
             .navbar-nav {
                 .nav-link {
+                    text-shadow: 2px 4px 8px black;
                     text-decoration: overline red;
                     margin-left: 2rem;
                     font-size: 2rem;
@@ -48,5 +48,6 @@
         color: white;
         padding-bottom: 2rem;
         margin: 0 0 0 15px;
+        text-shadow: 2px 4px 8px black;
     }
 }
